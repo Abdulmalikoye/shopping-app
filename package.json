@@ -4,7 +4,7 @@
   "description": "This is a robost shopping app",
   "main": "index.js",
   "scripts": {
-    "devs": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,8 @@
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.9.2"
+    "mongoose": "^8.9.2",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9"
   }
 }
